@@ -1,3 +1,3 @@
 #!/bin/sh
 script_full_path=$(dirname "$0")
-"${script_full_path}/execute_runcommand_scripts.sh" runcommand-onend "$@"
+"${script_full_path}/execute_runcommand_scripts.sh" runcommand-onend "$@" 2>&1
