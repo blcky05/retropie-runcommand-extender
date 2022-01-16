@@ -4,9 +4,9 @@ REPO_PATH=`dirname $TMP`/
 
 SCRIPT_PATH=/opt/retropie/configs/all/
 EXTENDER_SCRIPT=execute_runcommand_scripts
-ONSTART_SCRIPT=runcommand_onstart
-ONLAUNCH_SCRIPT=runcommand_onlaunch
-ONEND_SCRIPT=runcommand_onend
+ONSTART_SCRIPT=runcommand-onstart
+ONLAUNCH_SCRIPT=runcommand-onlaunch
+ONEND_SCRIPT=runcommand-onend
 
 EXTENDER_SCRIPT_PATH=${SCRIPT_PATH}${EXTENDER_SCRIPT}.sh
 ONSTART_SCRIPT_PATH=${SCRIPT_PATH}${ONSTART_SCRIPT}.sh
